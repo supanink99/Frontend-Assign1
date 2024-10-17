@@ -1,14 +1,18 @@
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    height: auto;
+    background: linear-gradient(to bottom, yellow, red);
 }
 
 .login-container {
     width: 300px;
     margin: 100px auto;
-    padding: 20px;
+    padding: 40px;
     background-color: #fff;
-    border-radius: 5px;
+    border-radius: 20px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
@@ -17,31 +21,51 @@ h1 {
     margin-bottom: 20px;
 }
 
+h2 {
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 17px;
+}
+
 label {
     display: block;
-    margin: 10px 0 5px;
+    margin: 10px 0 10px;
 }
 
 input {
     width: 100%;
     padding: 8px;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+.dropdown-field {
+    width: 100%;
+    padding: 10px;
+    font-size: 30px;
+    margin-bottom: 50px;
 }
 
 button {
     width: 100%;
     padding: 10px;
-    background-color: #007bff;
+    font-size: 18px;
+    background-color: black;
     border: none;
     color: #fff;
     cursor: pointer;
-}
-
-button:hover {
-    background-color: #0056b3;
+    border-radius: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    
 }
 
 #message {
     margin-top: 20px;
     text-align: center;
+}
+
+img {
+    display: block;
+    margin: 0 auto 20px;
+    max-width: 75%;
+    height: auto;
 }
